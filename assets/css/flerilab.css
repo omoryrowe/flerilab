@@ -338,7 +338,7 @@ a { color: var(--leaf); }
   box-shadow: 0 24px 60px rgba(20, 41, 27, 0.18);
   position: relative;
 }
-.founder-media img { width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: top center; }
+.founder-media img { width: 100%; height: auto; aspect-ratio: 4/5; object-fit: cover; object-position: top center; }
 .founder-name { margin-bottom: 0.2em; }
 .founder-role {
   font-family: var(--sans);
@@ -497,6 +497,17 @@ a { color: var(--leaf); }
 }
 .footer-brand img { height: 40px; margin-bottom: 14px; }
 .footer-brand p { color: rgba(255,255,255,0.65); max-width: 320px; }
+.footer-badge {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 6px 14px;
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--leaf-light) !important;
+}
 .footer-col h4 {
   color: #fff;
   font-family: var(--sans);
